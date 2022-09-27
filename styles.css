@@ -371,4 +371,34 @@ table {
     border: solid white 2px;
     background-color:#A9DEF9;
     border-radius: 5px;
+    padding:20px;
+}
+
+.trendingUsers {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.trendingAvatar {
+    display: grid;
+    width:auto;
+    height: 50px;
+    border-radius: 45px;
+    border: solid black 2px;
+    justify-self: center;
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+
+.trendingAT {
+    display:grid;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.trendingUsername {
+    display:grid;
+    grid-column: 2/3;
+    grid-row: 2/3;
 }
